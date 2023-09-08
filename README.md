@@ -13,4 +13,3 @@
 
 ### 5. Run the development server:
 ```npm run dev```
-Open [http://localhost:3030](http://localhost:3030)
