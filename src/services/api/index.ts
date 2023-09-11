@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiService = axios.create({
-    baseURL: process.env.API_URL || 'http://localhost:3030/api',
+    baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3030/api',
     headers: {
         'Access-Control-Allow-Origin': '*',
         'Content-Type': 'application/json',
